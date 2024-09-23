@@ -1,0 +1,183 @@
+.button {
+  background-color: none; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: none; 
+  color: #555555; 
+  border: none;
+}
+
+.button1:hover {
+  background-color: none;
+  color: black;
+}
+.button2 {
+  background-color: none; 
+  color: #555555; 
+  border: none;
+}
+
+.button2:hover {
+  background-color: none;
+  color: black;
+}
+.button3 {
+  background-color: none; 
+  color: #555555; 
+  border: none;
+}
+
+.button3:hover {
+  background-color: none;
+  color: black;
+}
+.button4 {
+  background-color: none; 
+  color: #555555; 
+  border: none;
+}
+
+.button4:hover {
+  background-color: none;
+  color: black;
+}
+.button5 {
+  display: right;
+  background-color: none; 
+  color: #555555; 
+  border: none;
+}
+
+.button5:hover {
+  background-color: none;
+  color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+header h1 {
+    position: relative;
+    text-align: left;
+}
+.video-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#background-video {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content {
+    height: 800px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero {
+    background: url(space.jpg.jpg) no-repeat center center;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 8em;
+    margin: 0;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.hero p {
+    font-size: 1.5em;
+}
+.hero input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 400px;
+    margin-top: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 1.2em;
+    color: #666;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.gallery img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-white w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i>
+    </a>
+    <a href="home.html" button class="button button1"</button>HOME</a>
+    <a href="about.html" button class="button button2"</button>ABOUT</a>
+    <a href="products.html" button class="button button3"</button>PORTFOLIO</a>
+    <a href="contact.html" button class="button button4"</button>CONTACT</a>
+    <a href="#" button class="button button5"</button><i class="fa fa-search"></i>
+    </a>
+  </div>
+</div>
+
+        
+<div class="video-container">
+        <video autoplay muted loop id="background-video">
+            <source src="images\file.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <img src="images\Ethereal Vitae Logo.png" style="width:97%;margin:64px 0">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>We provide high-quality products and services designed to meet your needs. Our goal is to deliver exceptional experiences through innovative solutions.</p>
+        </div>
+<div class="row">
+  <div class="column">
+    <img src="images\DSC_0186.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images\IMG_5251.JPG" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images\IMG_6084 (1).JPG" style="width:100%">
+  </div>
+</div>
+        <div class="section">
+            <h2>Our Products</h2>
+            <p>Discover a range of products designed to enhance your lifestyle. From cutting-edge technology to elegant design, we have something for everyone.</p>
+        </div>
+        <div class="section">
+            <h2>Interactive Images</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300" alt="Image 1" onclick="alert('Image 1 clicked!')">
+                <img src="https://via.placeholder.com/300" alt="Image 2" onclick="alert('Image 2 clicked!')">
+                <img src="https://via.placeholder.com/300" alt="Image 3" onclick="alert('Image 3 clicked!')">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Apple-Inspired Website. All rights reserved.</p>
+    </footer>
+<script>
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white " + " w3-opacity-min ";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white ", "");
+    }
+}
+</script>
+</body>
+</html>
